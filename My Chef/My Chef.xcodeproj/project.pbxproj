@@ -13,6 +13,8 @@
 		A40724F927C67A4E0010258D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40724F727C67A4E0010258D /* Main.storyboard */; };
 		A40724FB27C67A4F0010258D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40724FA27C67A4F0010258D /* Assets.xcassets */; };
 		A40724FE27C67A4F0010258D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40724FC27C67A4F0010258D /* LaunchScreen.storyboard */; };
+		A407250627C67FD90010258D /* RecipesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A407250527C67FD90010258D /* RecipesCollectionViewController.swift */; };
+		A407250827C680570010258D /* PlansCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A407250727C680570010258D /* PlansCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A40724FA27C67A4F0010258D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A40724FD27C67A4F0010258D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A40724FF27C67A4F0010258D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A407250527C67FD90010258D /* RecipesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesCollectionViewController.swift; sourceTree = "<group>"; };
+		A407250727C680570010258D /* PlansCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				A40724F127C67A4E0010258D /* AppDelegate.swift */,
 				A40724F327C67A4E0010258D /* SceneDelegate.swift */,
 				A40724F527C67A4E0010258D /* ViewController.swift */,
+				A407250527C67FD90010258D /* RecipesCollectionViewController.swift */,
+				A407250727C680570010258D /* PlansCollectionViewController.swift */,
 				A40724F727C67A4E0010258D /* Main.storyboard */,
 				A40724FA27C67A4F0010258D /* Assets.xcassets */,
 				A40724FC27C67A4F0010258D /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				A40724F627C67A4E0010258D /* ViewController.swift in Sources */,
 				A40724F227C67A4E0010258D /* AppDelegate.swift in Sources */,
+				A407250827C680570010258D /* PlansCollectionViewController.swift in Sources */,
+				A407250627C67FD90010258D /* RecipesCollectionViewController.swift in Sources */,
 				A40724F427C67A4E0010258D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
