@@ -16,6 +16,8 @@
 		A407250627C67FD90010258D /* RecipesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A407250527C67FD90010258D /* RecipesCollectionViewController.swift */; };
 		A407250827C680570010258D /* PlansCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A407250727C680570010258D /* PlansCollectionViewController.swift */; };
 		A407250A27C68AB90010258D /* GroceryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A407250927C68AB90010258D /* GroceryTableViewController.swift */; };
+		A407250E27C68B4C0010258D /* FridgeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A407250D27C68B4C0010258D /* FridgeTableViewController.swift */; };
+		A407251227C68C500010258D /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A407251127C68C500010258D /* RecipeDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		A407250527C67FD90010258D /* RecipesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesCollectionViewController.swift; sourceTree = "<group>"; };
 		A407250727C680570010258D /* PlansCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansCollectionViewController.swift; sourceTree = "<group>"; };
 		A407250927C68AB90010258D /* GroceryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryTableViewController.swift; sourceTree = "<group>"; };
+		A407250D27C68B4C0010258D /* FridgeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeTableViewController.swift; sourceTree = "<group>"; };
+		A407251127C68C500010258D /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				A407250527C67FD90010258D /* RecipesCollectionViewController.swift */,
 				A407250727C680570010258D /* PlansCollectionViewController.swift */,
 				A407250927C68AB90010258D /* GroceryTableViewController.swift */,
+				A407250D27C68B4C0010258D /* FridgeTableViewController.swift */,
+				A407251127C68C500010258D /* RecipeDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -165,8 +171,10 @@
 			files = (
 				A40724F627C67A4E0010258D /* ViewController.swift in Sources */,
 				A40724F227C67A4E0010258D /* AppDelegate.swift in Sources */,
+				A407251227C68C500010258D /* RecipeDetailViewController.swift in Sources */,
 				A407250827C680570010258D /* PlansCollectionViewController.swift in Sources */,
 				A407250627C67FD90010258D /* RecipesCollectionViewController.swift in Sources */,
+				A407250E27C68B4C0010258D /* FridgeTableViewController.swift in Sources */,
 				A407250A27C68AB90010258D /* GroceryTableViewController.swift in Sources */,
 				A40724F427C67A4E0010258D /* SceneDelegate.swift in Sources */,
 			);

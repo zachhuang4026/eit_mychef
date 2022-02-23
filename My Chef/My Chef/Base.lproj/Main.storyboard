@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -42,6 +43,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hZZ-Q4-dRB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1326.0869565217392" y="394.41964285714283"/>
+        </scene>
+        <!--Recipe Detail View Controller-->
+        <scene sceneID="ToB-91-hLz">
+            <objects>
+                <viewController storyboardIdentifier="recipeDetailVC" title="Recipe Detail View Controller" id="7AC-lE-voK" customClass="RecipeDetailViewController" customModule="My_Chef" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dXB-zh-2UW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="9r1-x6-sbP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3jl-VY-Mwi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2393" y="127"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="SHi-6G-gHe">
@@ -96,10 +112,10 @@
             </objects>
             <point key="canvasLocation" x="1326.0869565217392" y="-390.40178571428572"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Grocery Table View Controller-->
         <scene sceneID="Mfo-es-LLN">
             <objects>
-                <tableViewController id="rLF-Jr-bZK" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="groceryTVC" title="Grocery Table View Controller" id="rLF-Jr-bZK" customClass="GroceryTableViewController" customModule="My_Chef" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="mG9-eA-tvq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -122,12 +138,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aEA-LX-D4i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2678" y="-744"/>
+            <point key="canvasLocation" x="2394" y="-1030"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Fridge Table View Controller-->
         <scene sceneID="efk-JG-dkG">
             <objects>
-                <tableViewController id="mTq-jB-L0w" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="fridgeTBC" title="Fridge Table View Controller" id="mTq-jB-L0w" customClass="FridgeTableViewController" customModule="My_Chef" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="3xm-o1-Wie">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -150,7 +166,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gJT-CY-i5B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2668" y="-77"/>
+            <point key="canvasLocation" x="3170" y="-459"/>
         </scene>
         <!--Item-->
         <scene sceneID="oH2-Pw-hNt">
