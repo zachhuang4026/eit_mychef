@@ -15,6 +15,7 @@
 		A40724FE27C67A4F0010258D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40724FC27C67A4F0010258D /* LaunchScreen.storyboard */; };
 		A407250627C67FD90010258D /* RecipesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A407250527C67FD90010258D /* RecipesCollectionViewController.swift */; };
 		A407250827C680570010258D /* PlansCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A407250727C680570010258D /* PlansCollectionViewController.swift */; };
+		A407250A27C68AB90010258D /* GroceryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A407250927C68AB90010258D /* GroceryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A40724FF27C67A4F0010258D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A407250527C67FD90010258D /* RecipesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesCollectionViewController.swift; sourceTree = "<group>"; };
 		A407250727C680570010258D /* PlansCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansCollectionViewController.swift; sourceTree = "<group>"; };
+		A407250927C68AB90010258D /* GroceryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,15 +64,32 @@
 			children = (
 				A40724F127C67A4E0010258D /* AppDelegate.swift */,
 				A40724F327C67A4E0010258D /* SceneDelegate.swift */,
-				A40724F527C67A4E0010258D /* ViewController.swift */,
-				A407250527C67FD90010258D /* RecipesCollectionViewController.swift */,
-				A407250727C680570010258D /* PlansCollectionViewController.swift */,
+				A407250B27C68ACC0010258D /* Controller */,
+				A407250C27C68ADE0010258D /* View */,
 				A40724F727C67A4E0010258D /* Main.storyboard */,
 				A40724FA27C67A4F0010258D /* Assets.xcassets */,
 				A40724FC27C67A4F0010258D /* LaunchScreen.storyboard */,
 				A40724FF27C67A4F0010258D /* Info.plist */,
 			);
 			path = "My Chef";
+			sourceTree = "<group>";
+		};
+		A407250B27C68ACC0010258D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A40724F527C67A4E0010258D /* ViewController.swift */,
+				A407250527C67FD90010258D /* RecipesCollectionViewController.swift */,
+				A407250727C680570010258D /* PlansCollectionViewController.swift */,
+				A407250927C68AB90010258D /* GroceryTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A407250C27C68ADE0010258D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +167,7 @@
 				A40724F227C67A4E0010258D /* AppDelegate.swift in Sources */,
 				A407250827C680570010258D /* PlansCollectionViewController.swift in Sources */,
 				A407250627C67FD90010258D /* RecipesCollectionViewController.swift in Sources */,
+				A407250A27C68AB90010258D /* GroceryTableViewController.swift in Sources */,
 				A40724F427C67A4E0010258D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
