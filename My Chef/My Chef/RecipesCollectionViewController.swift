@@ -20,7 +20,13 @@ class RecipesCollectionViewController: UICollectionViewController {
         // Register cell classes
         self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 
-        // Do any additional setup after loading the view.
+        // Set up navigation bar theme
+        let navBar = self.navigationController!.navigationBar
+        let recipesNavigationBarAppearence = UINavigationBarAppearance()
+        recipesNavigationBarAppearence.backgroundColor = UIColor(named: "backgroundColor")
+        recipesNavigationBarAppearence.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor(named: "textColor") as Any]
+        navBar.scrollEdgeAppearance = recipesNavigationBarAppearence
+        
     }
 
     /*

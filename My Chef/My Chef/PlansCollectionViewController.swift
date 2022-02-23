@@ -20,7 +20,12 @@ class PlansCollectionViewController: UICollectionViewController {
         // Register cell classes
         self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 
-        // Do any additional setup after loading the view.
+        // Set up navigation bar theme
+        let navBar = self.navigationController!.navigationBar
+        let plansNavigationBarAppearence = UINavigationBarAppearance()
+        plansNavigationBarAppearence.backgroundColor = UIColor(named: "backgroundColor")
+        plansNavigationBarAppearence.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor(named: "textColor") as Any]
+        navBar.scrollEdgeAppearance = plansNavigationBarAppearence
     }
 
     /*
