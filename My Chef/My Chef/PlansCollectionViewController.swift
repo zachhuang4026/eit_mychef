@@ -21,10 +21,13 @@ class PlansCollectionViewController: UICollectionViewController {
         self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 
         // Set up navigation bar theme
+        navigationController?.navigationBar.prefersLargeTitles = true
+        self.navigationItem.title = "Meals for the week"
         let navBar = self.navigationController!.navigationBar
         let plansNavigationBarAppearence = UINavigationBarAppearance()
         plansNavigationBarAppearence.backgroundColor = UIColor(named: "backgroundColor")
         plansNavigationBarAppearence.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor(named: "textColor") as Any]
+
         navBar.scrollEdgeAppearance = plansNavigationBarAppearence
     }
 

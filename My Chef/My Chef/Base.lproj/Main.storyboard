@@ -47,7 +47,7 @@
         <scene sceneID="SHi-6G-gHe">
             <objects>
                 <tabBarController id="rNJ-gE-J43" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2sA-rz-EZa">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" backgroundImage="calendar.badge.plus" catalog="system" id="2sA-rz-EZa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -99,8 +99,8 @@
         <!--Item-->
         <scene sceneID="oH2-Pw-hNt">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ybh-wB-YnU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="r3S-Oo-LJs"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ybh-wB-YnU" userLabel="Item" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Plan" image="calendar.badge.plus" catalog="system" id="r3S-Oo-LJs"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="KvP-Is-PdC">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -115,11 +115,11 @@
             </objects>
             <point key="canvasLocation" x="415.94202898550731" y="-390.40178571428572"/>
         </scene>
-        <!--Item-->
+        <!--Recipes-->
         <scene sceneID="hF8-Aj-ZMq">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="N21-yp-wKG" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="jk1-i4-1c8"/>
+                    <tabBarItem key="tabBarItem" title="Recipes" image="book" catalog="system" id="jk1-i4-1c8"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9gC-hB-gtg">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -136,6 +136,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="book" catalog="system" width="128" height="99"/>
+        <image name="calendar.badge.plus" catalog="system" width="128" height="108"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

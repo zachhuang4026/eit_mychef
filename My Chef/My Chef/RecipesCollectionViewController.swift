@@ -21,6 +21,8 @@ class RecipesCollectionViewController: UICollectionViewController {
         self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 
         // Set up navigation bar theme
+        navigationController?.navigationBar.prefersLargeTitles = true
+        self.navigationItem.title = "Recipes"
         let navBar = self.navigationController!.navigationBar
         let recipesNavigationBarAppearence = UINavigationBarAppearance()
         recipesNavigationBarAppearence.backgroundColor = UIColor(named: "backgroundColor")
